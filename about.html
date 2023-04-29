@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="index.html">
+            <img class="logo__img" src="./assets/logo-dark.gif" alt="Logo">
+        </a>
+
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+        <button onclick="animarMenu()" id="btn__menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
+        <nav class="cabecalho__menu__mobile" id="menu__mobile">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__titulo__about">Sobre mim</h1>
+            <p class="apresentacao__sobre">Me chamo Enzo, sou estudante de Análise e Desenvolvimento de Sistemas.
+                Freelancer em desenvolvimento front-end responsivo e personalizados. Tive a oportunidade fazer
+                intercâmbio nos
+                Estados Unidos, uma experiência que desenvolveu minhas habilidades e abriu muitas portas. Sou apaixonado
+                por tecnologia. Acredito que é uma forma para estarmos mais conectados com o mundo, viajar e conhecer
+                outras culturas até mesmo sem sair de casa.</p>
+            <p class="apresentacao__sobre">Eu diria que sou uma pessoa que busca sempre aprimorar. Costumo refletir
+                sobre o que posso fazer de diferente para ser um profissional mais completo. Aprecio o aprendizado
+                contínuo e não tenho medo de desafios. Por fim, gosto de pautar minha vida na frase de Abraham Lincoln:
+                “O que quer que você seja, seja o melhor”.</p>
+            <a class="whatsapp-btn" href="https://wa.me/351912876537?text=Olá%2C%20gostaria%20de%20mais%20informações"
+                target="_blank">
+                <img src="./assets/whatsapp.png" alt="Botão do WhatsApp">
+            </a>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/about_foto.png" alt="Foto Perfil Enzo">
+    </main>
+
+    <footer class="rodape">
+        <p>Copyright © 2023 Enzo Souza | Todos os direitos reservados</p>
+    </footer>
+    <script src="animar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="index.html">
+            <img class="logo__img" src="./assets/logo-dark.gif" alt="Logo">
+        </a>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+        <button onclick="animarMenu()" id="btn__menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
+        <nav class="cabecalho__menu__mobile" id="menu__mobile">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__titulo__contato">Contacte-me!</h1>
+            <a class="conteudo__contato" href="mailto:contato@enzosouza.com">contato@enzosouza.com</a>
+            <a class="conteudo__contato">
+                <img class="logo__img" src="./assets/telefone.png" alt="Telefone de contato">
+                +351 912 876 537
+            </a>
+            <a class="whatsapp-btn"
+                href="https://wa.me/351912876537?text=Olá%2C%20gostaria%20de%20obter%20mais%20informações"
+                target="_blank">
+                <img src="./assets/whatsapp.png" alt="Botão do WhatsApp">
+            </a>
+            <img class="qrCode" src="./assets/qrCode.png" alt="qrCode Whatsapp">
+        </section>
+        <img class="foto__contato" src="./assets/foto_contato.jpg" alt="Foto contato">
+    </main>
+    <footer class="rodape">
+        <p>Copyright © 2023 Enzo Souza | Todos os direitos reservados</p>
+    </footer>
+    <script src="animar.js"></script>
+</body>
+
+</html>
