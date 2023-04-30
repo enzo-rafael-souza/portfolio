@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo Souza</title>
+    <link rel="stylesheet" href="./styles/style.css">    
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="index.html">
+            <img class="logo__img" src="./assets/logo-dark.gif" alt="Logo">
+        </a>
+
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+        <button onclick="animarMenu()" id="btn__menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
+        <nav class="cabecalho__menu__mobile" id="menu__mobile">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="contatos.html">Contato</a>
+
+        </nav>
+
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">DESENVOLVEDOR<br>FRONT-END</h1>
+            <p class="apresentacao__conteudo__texto">Olá, eu sou Enzo, desenvolvedor front-end. Minhas habilidades
+                incluem <strong class="destaque-linguagem">HTML, CSS, JavaScript</strong> e outras tecnologias
+                relevantes. Meu objetivo é aprender e crescer nessa área, criando soluções criativas e eficientes que ofereçam uma ótima experiência do usuário. Obrigado por visitar meu portfólio e espero ter a oportunidade de trabalhar com você em breve!</p>                
+            <div class="apresentacao__links">
+                <h2 class="subtitulo__links">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/enzo-rafael-souza/"
+                    target="_blank">
+                    <img src="./assets/linkedin.png" alt="Linkedin">
+                    Linkedin</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/enzo-rafael-souza" target="_blank">
+                    <img src="./assets/github.png" alt="GitHub">
+                    GitHub</a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/fotoIndex.gif" alt="Foto Perfil Enzo">
+    </main>
+    <footer class="rodape">
+        <p>Copyright © 2023 Enzo Souza | Todos os direitos reservados</p>
+    </footer>
+    <script src="animar.js"></script>
+
+</body>
+
+</html>
