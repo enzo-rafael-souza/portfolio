@@ -38,3 +38,17 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 });
+
+const logo = document.getElementById('logo');
+
+logo.addEventListener('mouseenter', () => {
+    logo.classList.add('shake');
+});
+
+logo.addEventListener('mouseleave', () => {
+    logo.classList.remove('shake');
+});
+
+logo.addEventListener('click', () => {
+    window.location.href = '#header';
+});

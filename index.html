@@ -7,23 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Enzo Souza</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ea42b01f76.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ea42b01f76.js" crossorigin="anonymous"></script>    
 </head>
 
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" class="logo">
+                <img src="images/logo.png" class="logo" id="logo">
+
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
             </nav>
             <div class="header-text">
                 <p>Web and Software Developer</p>
@@ -85,62 +88,63 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna
-                        aliqua.</p>
-                    <a href="#">Learn more</a>
+                    <p>Creating captivating and functional websites that leave a lasting impression. From concept to
+                        execution, the goal is to
+                        translate ideas into visually stunning online experiences.</p>
+                    <!--<a href="#">Learn more</a>-->
                 </div>
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
                     <h2>UI/UX Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna
-                        aliqua.</p>
-                    <a href="#">Learn more</a>
+                    <p>Elevate user experience with UI/UX. The focus is on creating intuitive and visually appealing
+                        interfaces that improve
+                        user engagement. From wireframes to prototypes, meticulously design each interaction to ensure a
+                        smooth and enjoyable
+                        user journey.</p>
+                    <!--<a href="#">Learn more</a>-->
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store"></i>
                     <h2>App Design</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna
-                        aliqua.</p>
-                    <a href="#">Learn more</a>
+                    <p>The app design process involves a perfect balance between aesthetics and functionality,
+                        resulting in user interfaces that not only look great but also provide a seamless and enjoyable
+                        user experience.</p>
+                    <!--<a href="#">Learn more</a>-->
                 </div>
             </div>
         </div>
     </div>
-    <!---------------------portfolio----------------->
-    <div id="portfolio">
+    <!---------------------projects----------------->
+    <div id="projects">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">My Projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        <h3>Weather App</h3>
+                        <p>The Weather App provides accurate and minimalist weather information, allowing users to check temperature, weather icon,
+                        and other details by entering the city name in the search bar.
                         </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://weatherapp12023.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you to the talented people around the world. Download it from play store.
-                        </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Spotify clone</h3>
+                        <p>Spotify homepage, created with HTML, CSS and JS</p>
+                        <a href="https://spotify-clone-homepage7.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you to the talented people around the world. Download it from play store.
-                        </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Pong com Scratch</h3>
+                        <p>Pong Duel" is a classic arcade-style game created in Scratch.</p>
+                        <a href="https://scratch.mit.edu/projects/811930289" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -155,9 +159,10 @@
                     <h1 class="sub-title">Contact me</h1>
                     <p><i class="fa-solid fa-paper-plane"></i> dev.enzo.souza@gmail.com</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/enzo-rafael-souza/"><i
+                        <a href="https://www.linkedin.com/in/enzo-rafael-souza/" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/enzo-rafael-souza"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://github.com/enzo-rafael-souza" target="_blank"><i
+                                class="fa-brands fa-github"></i></i></a>
                     </div>
                     <a href="images/Cv_Enzo_Souza.pdf" download class="btn btn2">Download Cv</a>
                 </div>
@@ -177,7 +182,7 @@
         </div>
     </div>
 
- 
+
     <script src="script.js"></script>
 
 </body>
